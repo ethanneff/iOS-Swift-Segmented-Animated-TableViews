@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		672794E61C5ACF4700D54AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672794E51C5ACF4700D54AB4 /* AppDelegate.swift */; };
-		672794E81C5ACF4700D54AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672794E71C5ACF4700D54AB4 /* ViewController.swift */; };
-		672794EB1C5ACF4700D54AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672794E91C5ACF4700D54AB4 /* Main.storyboard */; };
 		672794ED1C5ACF4700D54AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672794EC1C5ACF4700D54AB4 /* Assets.xcassets */; };
 		672794F01C5ACF4700D54AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672794EE1C5ACF4700D54AB4 /* LaunchScreen.storyboard */; };
 		672794FB1C5ACF4700D54AB4 /* SegmentedTableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672794FA1C5ACF4700D54AB4 /* SegmentedTableViewsTests.swift */; };
 		672795061C5ACF4700D54AB4 /* SegmentedTableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672795051C5ACF4700D54AB4 /* SegmentedTableViewsUITests.swift */; };
+		672796A31C5D2CE300D54AB4 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6727969A1C5D2CE300D54AB4 /* Dashboard.storyboard */; };
+		672796A41C5D2CE300D54AB4 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727969B1C5D2CE300D54AB4 /* DashboardTableViewCell.swift */; };
+		672796A51C5D2CE300D54AB4 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6727969C1C5D2CE300D54AB4 /* DashboardTableViewCell.xib */; };
+		672796A61C5D2CE300D54AB4 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727969D1C5D2CE300D54AB4 /* DashboardViewController.swift */; };
+		672796A71C5D2CE300D54AB4 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6727969E1C5D2CE300D54AB4 /* Globals.swift */; };
+		672796B41C5D2E5700D54AB4 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672796B31C5D2E5700D54AB4 /* FirstTableViewController.swift */; };
+		672796B61C5D2E5F00D54AB4 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672796B51C5D2E5F00D54AB4 /* SecondTableViewController.swift */; };
+		672796B91C5D2E6C00D54AB4 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672796B81C5D2E6C00D54AB4 /* ThirdTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		672794E21C5ACF4700D54AB4 /* SegmentedTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672794E51C5ACF4700D54AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		672794E71C5ACF4700D54AB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		672794EA1C5ACF4700D54AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		672794EC1C5ACF4700D54AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672794EF1C5ACF4700D54AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		672794F11C5ACF4700D54AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		672795011C5ACF4700D54AB4 /* SegmentedTableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedTableViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		672795051C5ACF4700D54AB4 /* SegmentedTableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTableViewsUITests.swift; sourceTree = "<group>"; };
 		672795071C5ACF4700D54AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6727969A1C5D2CE300D54AB4 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		6727969B1C5D2CE300D54AB4 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		6727969C1C5D2CE300D54AB4 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		6727969D1C5D2CE300D54AB4 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6727969E1C5D2CE300D54AB4 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		672796B31C5D2E5700D54AB4 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		672796B51C5D2E5F00D54AB4 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		672796B81C5D2E6C00D54AB4 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,8 @@
 		672794E41C5ACF4700D54AB4 /* SegmentedTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				672794E51C5ACF4700D54AB4 /* AppDelegate.swift */,
-				672794E71C5ACF4700D54AB4 /* ViewController.swift */,
-				672794E91C5ACF4700D54AB4 /* Main.storyboard */,
-				672794EC1C5ACF4700D54AB4 /* Assets.xcassets */,
-				672794EE1C5ACF4700D54AB4 /* LaunchScreen.storyboard */,
-				672794F11C5ACF4700D54AB4 /* Info.plist */,
+				672796AE1C5D2CF200D54AB4 /* Components */,
+				672796AD1C5D2CED00D54AB4 /* Shared */,
 			);
 			path = SegmentedTableViews;
 			sourceTree = "<group>";
@@ -123,6 +131,64 @@
 				672795071C5ACF4700D54AB4 /* Info.plist */,
 			);
 			path = SegmentedTableViewsUITests;
+			sourceTree = "<group>";
+		};
+		672796AC1C5D2CE700D54AB4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				6727969A1C5D2CE300D54AB4 /* Dashboard.storyboard */,
+				6727969D1C5D2CE300D54AB4 /* DashboardViewController.swift */,
+				672796B31C5D2E5700D54AB4 /* FirstTableViewController.swift */,
+				672796B51C5D2E5F00D54AB4 /* SecondTableViewController.swift */,
+				672796B81C5D2E6C00D54AB4 /* ThirdTableViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		672796AD1C5D2CED00D54AB4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				672796B21C5D2D6E00D54AB4 /* App */,
+				672796B11C5D2D4D00D54AB4 /* Lib */,
+				672796B01C5D2D3C00D54AB4 /* Cell */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		672796AE1C5D2CF200D54AB4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				672796AC1C5D2CE700D54AB4 /* Dashboard */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		672796B01C5D2D3C00D54AB4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6727969B1C5D2CE300D54AB4 /* DashboardTableViewCell.swift */,
+				6727969C1C5D2CE300D54AB4 /* DashboardTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		672796B11C5D2D4D00D54AB4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6727969E1C5D2CE300D54AB4 /* Globals.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		672796B21C5D2D6E00D54AB4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				672794E51C5ACF4700D54AB4 /* AppDelegate.swift */,
+				672794EC1C5ACF4700D54AB4 /* Assets.xcassets */,
+				672794EE1C5ACF4700D54AB4 /* LaunchScreen.storyboard */,
+				672794F11C5ACF4700D54AB4 /* Info.plist */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672796A51C5D2CE300D54AB4 /* DashboardTableViewCell.xib in Resources */,
 				672794F01C5ACF4700D54AB4 /* LaunchScreen.storyboard in Resources */,
 				672794ED1C5ACF4700D54AB4 /* Assets.xcassets in Resources */,
-				672794EB1C5ACF4700D54AB4 /* Main.storyboard in Resources */,
+				672796A31C5D2CE300D54AB4 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672794E81C5ACF4700D54AB4 /* ViewController.swift in Sources */,
+				672796A41C5D2CE300D54AB4 /* DashboardTableViewCell.swift in Sources */,
+				672796B61C5D2E5F00D54AB4 /* SecondTableViewController.swift in Sources */,
 				672794E61C5ACF4700D54AB4 /* AppDelegate.swift in Sources */,
+				672796A71C5D2CE300D54AB4 /* Globals.swift in Sources */,
+				672796A61C5D2CE300D54AB4 /* DashboardViewController.swift in Sources */,
+				672796B41C5D2E5700D54AB4 /* FirstTableViewController.swift in Sources */,
+				672796B91C5D2E6C00D54AB4 /* ThirdTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		672794E91C5ACF4700D54AB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				672794EA1C5ACF4700D54AB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		672794EE1C5ACF4700D54AB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +548,7 @@
 				6727950C1C5ACF4700D54AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6727950D1C5ACF4700D54AB4 /* Build configuration list for PBXNativeTarget "SegmentedTableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +557,7 @@
 				6727950F1C5ACF4700D54AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		672795101C5ACF4700D54AB4 /* Build configuration list for PBXNativeTarget "SegmentedTableViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +566,7 @@
 				672795121C5ACF4700D54AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
